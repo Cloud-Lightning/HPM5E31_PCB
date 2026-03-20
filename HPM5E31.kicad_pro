@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -119,7 +125,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.381,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -132,7 +138,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4064,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +186,28 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.127,
+        0.1524,
+        0.1778,
+        0.2032,
+        0.2286,
+        0.254,
+        0.3048,
+        0.3302,
+        0.3556,
+        0.381,
+        0.4064,
+        0.4318,
+        0.4572,
+        0.4826,
+        0.508,
+        0.5588,
+        0.635,
+        0.762,
+        1.016
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +234,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4064,
+          "drill": 0.3048
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3048
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -462,10 +502,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.0899,
+        "diff_pair_gap": 0.18,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.33,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -473,10 +513,24 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.33,
+        "via_diameter": 0.4,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.6604,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.33,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RGMII",
+        "pcb_color": "rgb(76, 59, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.33,
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -484,7 +538,48 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.TXCK"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.TXD0"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.TXD1"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.TXD2"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.TXD3"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.RXD0"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.RXD1"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.RXD2"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.RXD3"
+      },
+      {
+        "netclass": "RGMII",
+        "pattern": "/PIN_F/ETH0.RXCK"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
