@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "c97d420a-5bfd-40ab-9a74-5349ba6434d5")
 	(paper "A4")
 	(lib_symbols)
@@ -288,11 +288,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "5d63c967-3e1e-4c32-99f3-ca0703e17163")
 		(property "Sheetname" "HPM_DCDC"
 			(at 25.4 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -302,6 +304,8 @@
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
 			(at 25.4 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,11 +344,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "66409916-63cc-4ec6-a4ee-7afe73c5271b")
 		(property "Sheetname" "PIN_F"
 			(at 90.17 48.8184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,6 +360,8 @@
 		)
 		(property "Sheetfile" "PIN_F.kicad_sch"
 			(at 90.17 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,11 +430,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7e36ae8c-fe7d-4836-83fb-8a28fde457e1")
 		(property "Sheetname" "PIN_A"
 			(at 90.17 20.8784 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,6 +446,8 @@
 		)
 		(property "Sheetfile" "PIN_A.kicad_sch"
 			(at 90.17 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,11 +526,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a0b3efbc-0cdf-4865-a480-919fc4e41e58")
 		(property "Sheetname" "PIN_BCD"
 			(at 26.67 83.1084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,6 +542,8 @@
 		)
 		(property "Sheetfile" "PIN_BCD.kicad_sch"
 			(at 26.67 95.8346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -586,11 +602,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "a6e05f59-c850-40f8-96e7-7ebc30b62383")
 		(property "Sheetname" "POWER"
 			(at 26.67 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -600,6 +618,8 @@
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
 			(at 26.67 126.3146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -657,11 +677,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b751a3b4-6bb9-4107-87c1-0f7e2c3b4ee6")
 		(property "Sheetname" "Crystal"
 			(at 25.4 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,6 +693,8 @@
 		)
 		(property "Sheetfile" "Crystal.kicad_sch"
 			(at 25.4 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,11 +704,13 @@
 		)
 		(property "Field2" "Crystal"
 			(at 36.322 18.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "USB_DP" bidirectional
