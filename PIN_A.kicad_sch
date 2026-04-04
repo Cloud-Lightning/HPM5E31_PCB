@@ -10220,6 +10220,16 @@
 		)
 		(uuid "7c0d6aa4-48e2-4f58-b6c6-fb7e32bd0135")
 	)
+	(label "RXER{slash}PHYAD0"
+		(at 132.08 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d68fcde-81c2-4efb-bd2a-d361bde7f08c")
+	)
 	(label "JTAG.TDO"
 		(at 76.2 49.53 180)
 		(effects
@@ -13450,6 +13460,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 132.08 217.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40934805-c201-488a-a568-2668526840aa")
+		(property "Reference" "R62"
+			(at 134.62 215.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10R"
+			(at 134.62 218.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 133.858 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 132.08 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 132.08 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69f871c2-12d1-48d9-a2ac-4ec31d8eb54a")
+		)
+		(pin "2"
+			(uuid "1f2a4042-dd9a-4575-9374-f8281fda6397")
+		)
+		(instances
+			(project "HPM5E31"
+				(path "/c97d420a-5bfd-40ab-9a74-5349ba6434d5/7e36ae8c-fe7d-4836-83fb-8a28fde457e1"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
 		(at 54.61 46.99 0)
 		(unit 1)
@@ -15422,6 +15536,84 @@
 			(project "HPM5E31"
 				(path "/c97d420a-5bfd-40ab-9a74-5349ba6434d5/7e36ae8c-fe7d-4836-83fb-8a28fde457e1"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 132.08 220.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "784e3c13-9e50-47a5-b680-4630fbd948db")
+		(property "Reference" "#PWR0136"
+			(at 132.08 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 132.08 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 132.08 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25f5dfc8-10a2-4f45-8e31-230825848592")
+		)
+		(instances
+			(project "HPM5E31"
+				(path "/c97d420a-5bfd-40ab-9a74-5349ba6434d5/7e36ae8c-fe7d-4836-83fb-8a28fde457e1"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
