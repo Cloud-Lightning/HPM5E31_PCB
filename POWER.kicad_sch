@@ -8795,7 +8795,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "4.7uH"
 			(at 203.2 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)

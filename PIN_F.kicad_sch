@@ -21323,7 +21323,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "4.7uH"
 			(at 257.81 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
